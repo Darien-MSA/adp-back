@@ -1,12 +1,17 @@
 {
   "name": "adp-back",
   "version": "1.0.0",
-  "description": "REST API's con Express y Typescript",
+  "description": "",
   "license": "ISC",
-  "author": "Darien Sánchez @Darien-MSA",
-  "type": "commonjs",
+  "author": "Darien Sanchez @Darien-MSA",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec tsx src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   }
 }

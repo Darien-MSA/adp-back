@@ -1,1 +1,5 @@
-console.log('desde index.ts')
+import { sumar } from "./server";
+
+console.log("Hola desde index.tsx")
+
+sumar()
